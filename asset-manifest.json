@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ean-app/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/ean-app/static/js/main.f456eff6.chunk.js",
+    "main.js.map": "/ean-app/static/js/main.f456eff6.chunk.js.map",
+    "runtime-main.js": "/ean-app/static/js/runtime-main.073436cd.js",
+    "runtime-main.js.map": "/ean-app/static/js/runtime-main.073436cd.js.map",
+    "static/css/2.fb17aa6d.chunk.css": "/ean-app/static/css/2.fb17aa6d.chunk.css",
+    "static/js/2.0b6a0c8e.chunk.js": "/ean-app/static/js/2.0b6a0c8e.chunk.js",
+    "static/js/2.0b6a0c8e.chunk.js.map": "/ean-app/static/js/2.0b6a0c8e.chunk.js.map",
+    "index.html": "/ean-app/index.html",
+    "static/css/2.fb17aa6d.chunk.css.map": "/ean-app/static/css/2.fb17aa6d.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/ean-app/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.0b6a0c8e.chunk.js.LICENSE.txt": "/ean-app/static/js/2.0b6a0c8e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.073436cd.js",
+    "static/css/2.fb17aa6d.chunk.css",
+    "static/js/2.0b6a0c8e.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.f456eff6.chunk.js"
+  ]
+}
