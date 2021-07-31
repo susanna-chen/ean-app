@@ -35,7 +35,9 @@ const A4 = ({product, props}) => {
        }
 
     return (
-        <div
+        <div  style={{
+            display: 'flex',
+        }}
         >
         <div style={{
             display: 'flex',
@@ -62,10 +64,12 @@ const A4 = ({product, props}) => {
                 {cards}
             </div>
         </div>
+        <div>
         {show && <Button onClick={() => setShow(false)} style={{
             margin: '30px'}}>Done</Button>}
         {!show && <Button onClick={() => onCapture()} style={{
-            margin: '30px'}}>download</Button>}   
+            margin: '30px'}}>download</Button>} 
+        </div>  
         </ div>
     )
 }
