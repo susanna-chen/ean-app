@@ -35,26 +35,38 @@ const A4 = ({product, props}) => {
        }
 
     return (
-        <>
+        <div
+        >
         <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
+            display: 'flex',
             flexWrap: 'wrap',
-            width: '24.07cm',
-            height: '18cm',
+            justifyContent: 'center',
+            width: '297mm',
+            height: '21cm',
             background: 'white',
-            border: '1px solid black',
+            alignItems: 'center'
+            
         }}
             id='prezzo'
         >
-            {cards}
-
+            <div
+                style={{
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    justifyContent: 'center',
+                    width: '241mm',
+                    height: '18cm',
+                    borderRight: '1px solid black',
+                }}
+            >
+                {cards}
+            </div>
         </div>
         {show && <Button onClick={() => setShow(false)} style={{
             margin: '30px'}}>Done</Button>}
         {!show && <Button onClick={() => onCapture()} style={{
             margin: '30px'}}>download</Button>}   
-        </>
+        </ div>
     )
 }
 
