@@ -13,7 +13,7 @@ const PriceTag = props => {
         <div style={{
             display: 'flex',
             flexDirection: 'column',
-            justifyContent: 'space-btween',
+            justifyContent: 'space-between',
             height: '4.5cm',
             width: '8cm',
             padding: '0.5cm',
@@ -26,22 +26,28 @@ const PriceTag = props => {
         >
             <Row
                 ref={ref}
-                style={{ fontSize, height: '2cm', width: '100%', fontWeight:'bold' }}
+                style={{ fontSize, height: '2cm', width: '100%', fontWeight:'bold'}}
             >
                     {props.product}
             </Row>
                 
                 
             <Row style={{
-                
+                margin: '-19px'
             }}>
-                <Col style={{ fontSize: '38px' }}>€{props.price}</Col>
+                <Col style={{ fontSize: '38px'
+ }}>€{props.price}</Col>
                 <Col >
                     <Barcode
                     value={props.ean}
-                    height={25}
-                    width={0.8}
+                    height={40}
+                    width={1.3}
                     fontSize={8}
+                    format="EAN13"
+                    style={{
+                        margin: 0,
+                        padding: 0
+                    }}
                     />
                 </Col>
             </Row>
